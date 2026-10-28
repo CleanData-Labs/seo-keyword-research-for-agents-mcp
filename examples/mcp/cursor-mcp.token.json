@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "keyword-research": {
+      "url": "https://mcp.apify.com?tools=cleandata-labs/seo-keyword-research-for-agents",
+      "headers": {
+        "Authorization": "Bearer <YOUR_APIFY_TOKEN>"
+      }
+    }
+  }
+}

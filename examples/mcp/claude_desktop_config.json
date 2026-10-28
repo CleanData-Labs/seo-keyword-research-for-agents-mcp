@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "keyword-research": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--tools",
+        "cleandata-labs/seo-keyword-research-for-agents"
+      ],
+      "env": {
+        "APIFY_TOKEN": "<YOUR_APIFY_TOKEN>"
+      }
+    }
+  }
+}

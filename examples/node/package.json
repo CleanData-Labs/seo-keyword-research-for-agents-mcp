@@ -1,0 +1,18 @@
+{
+  "name": "seo-keyword-research-for-agents-mcp-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Examples for the Keyword Research for AI Agents Apify Actor",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0"
+  },
+  "scripts": {
+    "keyword-ideas": "node keyword-ideas.mjs",
+    "rising-searches": "node rising-searches.mjs"
+  }
+}

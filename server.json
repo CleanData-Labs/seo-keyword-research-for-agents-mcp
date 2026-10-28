@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CleanData-Labs/seo-keyword-research-for-agents",
+  "title": "Keyword Research for AI Agents",
+  "description": "Keyword ideas from Google Autocomplete plus Google Trends interest and rising queries. No API key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/cleandata-labs/seo-keyword-research-for-agents",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/CleanData-Labs/seo-keyword-research-for-agents-mcp/main/assets/icon.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=cleandata-labs/seo-keyword-research-for-agents",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. 'Bearer <APIFY_TOKEN>'. Leave empty to sign in with Apify OAuth instead.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
