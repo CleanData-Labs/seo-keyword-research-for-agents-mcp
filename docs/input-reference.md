@@ -1,4 +1,4 @@
-# Input reference: Keyword Research for AI Agents
+# Input reference: Keyword Research Tool — Autocomplete & Trends
 
 Generated from the Actor's published input schema. All fields are optional unless marked required. The same fields are the arguments of the MCP tool `cleandata-labs--seo-keyword-research-for-agents`.
 

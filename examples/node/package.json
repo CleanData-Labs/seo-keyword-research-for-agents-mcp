@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Examples for the Keyword Research for AI Agents Apify Actor",
+  "description": "Examples for the Keyword Research Tool — Autocomplete & Trends Apify Actor",
   "license": "MIT",
   "engines": {
     "node": ">=18"
